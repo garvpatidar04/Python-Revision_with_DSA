@@ -20,3 +20,4 @@ print(f"This is the json data: {json_data}")
 # writing python data to json data in external file
 with open("method.json", 'w', encoding='utf-8') as file:
     json.dump(method, file, indent=2) # -> JSON-Formated-File
+    #added comment
